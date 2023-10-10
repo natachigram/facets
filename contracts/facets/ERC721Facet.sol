@@ -16,7 +16,7 @@ import {LibDiamond} from "contracts/libraries/LibDiamond.sol";
  * the Metadata extension, but not including the Enumerable extension, which is available separately as
  * {ERC721Enumerable}.
  */
-contract ERC721Facet is ERC165, IERC721, IERC721Metadata, IERC721Errors {
+contract ERC721Facet is IERC721, IERC721Metadata, IERC721Errors {
     using Strings for uint256;
 
     /**
